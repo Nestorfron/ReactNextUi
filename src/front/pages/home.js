@@ -3,7 +3,7 @@ import { useTheme } from "next-themes";
 import "../styles/index.css";
 import { Button } from "@nextui-org/react";
 
-const Dashboard = () => {
+const Home = () => {
   const { theme, setTheme } = useTheme();
 
   return (
@@ -15,4 +15,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Home;
